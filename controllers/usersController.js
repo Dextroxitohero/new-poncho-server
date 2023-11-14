@@ -28,7 +28,6 @@ const getUser = async (req, res) => {
 const updateRoles = async (req, res) => {
     const userId = req.params.id;
     const  roles  = req.body;
-    console.log(roles)
 
     try {
         // Validar que roles es un objeto
